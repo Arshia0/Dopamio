@@ -1,0 +1,17 @@
+**/.DS_Store
+**/.fuse_hidden*
+.git/
+.env
+.env.*
+!.env.example
+vdopamio/
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+*.sqlite3
+selfhelp/media/
+reports/
+frontend/node_modules/
+frontend/build/
+frontend/srcnew.zip

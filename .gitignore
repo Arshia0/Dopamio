@@ -1,0 +1,38 @@
+# Python virtual environments and bytecode
+/venv/
+/.venv/
+/vdopamio/
+__pycache__/
+*.py[cod]
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Local databases, uploads, and generated media
+*.sqlite3
+/selfhelp/db.sqlite3
+/selfhelp/media/
+
+# Node dependencies and build output
+/frontend/node_modules/
+/signup-form/node_modules/
+/signup-form/build/
+/signup-form/.env
+/signup-form/.env.*
+/frontend/build/
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+
+# Local archives, scratch files, and editor/OS metadata
+/frontend/srcnew.zip
+/frontend/src/jhjh.text
+/.DS_Store
+**/.DS_Store
+**/.fuse_hidden*
+**/.vscode/
+
+# Academic reports may contain personal identifiers
+/reports/
