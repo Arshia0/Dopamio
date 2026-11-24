@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("./fonts/Vazirmatn-Variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Vazirmatn", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* index.css یا هر فایل CSS اصلی پروژه‌تان */
+.calendar-custom .rbc-toolbar {
+  @apply bg-gray-100 p-3 rounded-lg mb-4 shadow;
+}
+
+.calendar-custom .rbc-event {
+  @apply bg-blue-500 text-white p-1 rounded-lg shadow-md;
+}
+
+.calendar-custom .rbc-time-view .rbc-time-header {
+  @apply bg-gray-50 border-b border-gray-200;
+}
+
+.calendar-custom .rbc-time-slot {
+  @apply border-t border-gray-200;
+}
+
+.calendar-custom .rbc-today {
+  @apply bg-green-50;
+}
+
+.calendar-custom .rbc-day-bg {
+  @apply border-r border-gray-200;
+}
+
+.calendar-custom .rbc-month-row {
+  @apply border-t border-gray-200;
+}
+
+.calendar-custom .rbc-off-range-bg {
+  @apply bg-gray-100;
+}
+
+.calendar-custom .rbc-show-more {
+  @apply text-blue-500 hover:underline;
+}
